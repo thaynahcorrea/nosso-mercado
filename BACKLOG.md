@@ -23,6 +23,7 @@ Itens que vieram direto das suas necessidades — bons para começar.
 | ⭐ **Médias e tendências de gasto por categoria** ao longo dos meses (gráficos) | 🟡 |
 | ⭐ **Comparar com preços de outros mercados** da cidade (base externa) | 🔴 |
 | ⭐ **Planejamento por receita** (montar lista a partir do que vai cozinhar) | 🟡 |
+| ⭐ **Deslizar item para o lado** revelando Editar/Excluir (unifica e limpa a UX) | 🟡 |
 
 ---
 
@@ -51,6 +52,11 @@ Itens que vieram direto das suas necessidades — bons para começar.
 
 ### 📸 Reduzir fricção no corredor
 - **Foto do preço ou do cupom fiscal** para preencher automaticamente 🔴
+
+### 🎨 Usabilidade & design
+- ⭐ **Deslizar (swipe) para revelar Editar/Excluir** em itens, listas e catálogo — substituiria
+  o modo "Gerenciar itens", o menu "⋯" e o lápis por um gesto único. Cuidados: descoberta do
+  gesto e não conflitar com a rolagem; validar o "feeling" no celular real. 🟡
 
 ### 🔧 Qualidade técnica
 - **Edição simultânea**: hoje "a última gravação vence"; tratar conflitos 🔴
