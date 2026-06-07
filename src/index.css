@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: #DCE9E7;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+* { box-sizing: border-box; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes sheetUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.animate-sheet { animation: sheetUp .22s cubic-bezier(.2,.8,.2,1); }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+.animate-fade { animation: fade .18s ease; }
+
+input { font-size: 16px; } /* evita zoom no iOS ao focar */
